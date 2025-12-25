@@ -1,0 +1,299 @@
+/* top nav element */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top_nav {
+    background-color: #00143b;
+    color: white;
+    width: auto;
+    padding-left: 500px;
+    /* text-align: center; */
+    padding: auto;
+    height: 40px;
+    padding-top: 15px;
+    /* padding-left: 0px; */
+    display: flex;
+
+
+}
+
+.top_nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* header nav bar css */
+.headerbar {
+    text-align: justify;
+    color: black;
+    display: flex;
+    gap: 200px;
+    height: 30px;
+    padding-left: 150px;
+    padding-top: 10px;
+    align-items: center;
+    background-color: aliceblue;
+    height: fit-content;
+    padding-bottom: 40px;
+
+}
+
+.headerbar .main_text img {
+    width: 100px;
+    height: 90px;
+    /* display: inline-block; */
+}
+
+.headerbar .main_text {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.headerbar .clgcode {
+    padding-top: 30px;
+    font-size: 15;
+}
+
+.headerbar .main_text div b {
+    font-size: 15px;
+}
+
+/* navbar with dropdown lists */
+.navbar {
+    background-color: #00143b;
+    height: 10px;
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+
+}
+
+.navbar button {
+    border: none;
+    background-color: #00143b;
+    color: white;
+    font-size: 15px;
+
+
+}
+
+.nav div button {
+    /* text-align: center; */
+}
+
+hr {
+    height: auto;
+    font-size: 30px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+/* dropdown content */
+.dropdown_content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown_content a {
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content a:hover {
+    background-color: rgb(242, 153, 153);
+    display: block;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+/* Change background color of dropdown button on hover */
+.dropdown:hover .dropbtn {
+    background-color: #f48126;
+
+}
+
+/* clg photoes css */
+.clgphotoes {
+    /* margin-top: auto; 
+    *
+    */
+    margin-top: 10px;
+    background-image: url('./clgphoto.jpeg');
+    backface-visibility: visible;
+    /* background-attachment: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+/* about  and news of the vardhaman  section*/
+.aboutnews {
+    display: flex;
+    background-color: aliceblue;
+    height: 400px;
+}
+
+.about {
+    width: 60%;
+    justify-content: center;
+    padding: 25px;
+}
+
+marquee img {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.news {
+    width: 40%;
+    height: 800px;
+}
+
+/* this is offering why vardhaman */
+.why {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.offerings {
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.firstdiv {
+    /* display: flex; */
+    gap: 10px;
+    padding: 20px;
+    width: 33%;
+    justify-content: center;
+    /* text-align: ; */
+
+
+}
+
+.secondoffer {}
+
+i {
+    font-size: 20px;
+}
+
+/* .firstdiv p h3{
+    position: relative;
+
+} */
+.content p {
+    margin-top: 0px;
+}
+
+.content h3 {
+    margin-top: 10px;
+    display: inline;
+}
+
+.fistecolumn {
+    display: flex;
+    gap: 10px;
+}
+
+/* second offer div css */
+.seconddiv {
+    /* display: flex; */
+    gap: 10px;
+    /* padding-top: 30px; */
+    width: 33%;
+    justify-content: center;
+    /* text-align: ; */
+    margin-top: 10px;
+    padding: 20px;
+    /* display: inline; */
+    padding: 20px;
+
+
+}
+.thirddiv {
+    /* display: flex; */
+    gap: 10px;
+    /* padding-top: 30px; */
+    width: 33%;
+    justify-content: center;
+    /* text-align: ; */
+    margin-top: 10px;
+    padding: 20px;
+    /* display: inline; */
+    padding: 20px;
+
+
+}
+.rankingsandrecoginzarion
+{
+    background-color: rgb(133, 134, 135);
+    max-width:100% ;
+
+}
+.rankingsandrecoginzarion h3{
+    text-align: center;
+}
+.logoes{
+    display: flex;
+    /* gap: 50px;
+     */
+     justify-content: space-evenly;
+     padding: 30px;
+}
+.logoes div p {
+    /* text-emphasis: ce\\; */
+    text-align: center;
+}
+.logoes div img{
+    width: 120px;
+    height: 100px;
+}
+/* annoucements section css */
+.annoucements{
+    height: 300px;
+}
+.content
+{
+    display: flex;
+    padding: auto;
+    /* justify-conten; */
+
+}
+.content .matter
+{
+    width: 60%;
+   text-align:center;
+   padding: 20px;
+   /* justify-content:flex-end; */
+   /* content-visibility: initial; */
+
+}
+.annoucements h3{
+    text-align: center;
+    /* justify-items: inherit; */
+    /* jus */
+    font-size: 30px;
+}
